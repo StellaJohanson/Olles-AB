@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ld.j4rl.se/ld-theme-toggle.js" defer></script>
+</head>
+<body data-theme="light">
+    <header>
+        <div class="bg">
+            <h1 class="titel">OLLES AB</h1>
+        </div>
+    </header>
+    <nav>    
+    <ld-theme-toggle></ld-theme-toggle>  
+    <a class ="theme-button" href="index.html">Start</a>   
+    <a class ="theme-button" href="donera.html">Donera</a>
+    <a class ="theme-button" href="kontakt.html">Kontakt</a>
+    <a class ="theme-button" href="om_oss.html">Om oss</a>
+    <a class ="theme-button" href="bilder.html">Bilder</a>
+</nav>
+<main>
+    <h1>Kontakt</h1>
+    <p>Om ni har några frågor om vår verksamhet kontakta oss gärna!</p>
+    <form action="kontakt.html" method="get">
+        <label for="namn_1">Förnamn:</label>
+        <input type="text" id="namn_1" placeholder="Ange förnamn" required class="theme-field">
+        <label for="namn_2">Efternamn:</label>
+        <input type="text" id="namn_2" placeholder="Ange efternamn" required class="theme-field">
+        <label for="email">Epost:</label>
+        <input type="email" name="email" id="email" placeholder="Epost" required class="theme-field">
+        <label for="text_ruta"></label>
+        <textarea class="textruta" name="text_ruta" id="text_ruta" required></textarea>
+    
+        <input type="submit" name="btm" value="Skicka">
+    </form>
+</main>
+<footer>&copy; OLLES AB 2026</footer>
+</body>
+</html>
