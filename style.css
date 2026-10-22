@@ -118,8 +118,9 @@ form{
 }
 
 .olleAB{
-    height: 3.5rem;
-    width: 15rem;
+    height: 40rem;
+    width: 30rem;
+    padding: 1rem;
 }
 .olles_bild{
     display: grid;
