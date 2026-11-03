@@ -26,11 +26,12 @@ nav{
 }
 
 nav a{
-    color: var(--text);
+    color: white;
     font-family: var(--font-body);
     text-decoration: none;
-    gap: 20rem;
+    gap: 30rem;
 }
+
 
 .bg{
     background: var(--bg);
@@ -67,8 +68,6 @@ p{
     font-family: var(--font-body);
     color: var(--text);
 }
-
-
 
 h1,
 h2,
@@ -134,8 +133,20 @@ form{
 }
 
 .vi_på_ollesAB{
+    display: grid;
+    place-content: center;
     margin: 20px;
     box-sizing: var(--shadow);
+}
+
+.theme-card {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 1.25rem;
+    margin: 10px;
+    color: var(--text);
+    background: var(--surface);
+    box-shadow: var(--shadow);
 }
 
 [type="submit"]{
@@ -166,7 +177,8 @@ form{
 }
 
 footer{
-    background: var(--bg);
+    background: var(--primary);
+    color: white;
     text-align: center;
     font-family: var(--font-body);
 }
